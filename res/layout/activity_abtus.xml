@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Abtus">
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/bckfromabtus"
+        android:src="@drawable/ic_keyboard_backspace_black_24dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="30dp"/>
+    <LinearLayout
+        android:layout_width="160dp"
+        android:layout_height="67dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/weseelg"></ImageView>
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.5"
+            android:fontFamily="@font/proxima"
+            android:text="WeSee"
+            android:textColor="@color/pink"
+            android:textSize="28dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="17dp"
+        android:fontFamily="@font/proxima"
+        android:text="Welcome to We See !!"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:textSize="22dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_horizontal" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="17dp"
+        android:fontFamily="@font/proxima"
+        android:text="The WeSee Services"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        android:fontFamily="@font/proxima"
+        android:text="We agree to provide you with the WeSee Services. The Service includes all of the WeSee products,features,applications,services,technologies and software that we provide to advance WeSee's mission:To bring visually imapired people closer to the world.The Services is made up of the following aspects:"
+        android:layout_marginTop="5dp"
+        android:textColor="#000000"
+        android:textSize="13dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="47dp"
+                android:fontFamily="@font/proxima"
+                android:text="Explore easily"
+                android:layout_marginTop="20dp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="17dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="47dp"
+                android:layout_marginRight="17dp"
+                android:fontFamily="@font/proxima"
+                android:text="WeSee provides a product known as the 'SMART STICK' for the visually impaired people to detect various obstacles on their way . It makes their daily life easy"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:textSize="13dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="47dp"
+                android:fontFamily="@font/proxima"
+                android:text="Navigating easily"
+                android:layout_marginTop="20dp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="17dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="47dp"
+                android:layout_marginRight="17dp"
+                android:fontFamily="@font/proxima"
+                android:text="We provide navigation facality for visually imapaired or partially impaired users.The navigation facality provides voice enabled navigation which helps the blind pupils to explore independently."
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:textSize="13dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="47dp"
+                android:fontFamily="@font/proxima"
+                android:text="Search for objects"
+                android:layout_marginTop="20dp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="17dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="47dp"
+                android:layout_marginRight="17dp"
+                android:fontFamily="@font/proxima"
+                android:text="Visually impaired people can easily identify objects around them which they use in their daily routine.Identified objects are being notified to the visually impaired person through Text-to-Speech feature."
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:textSize="13dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="47dp"
+                android:fontFamily="@font/proxima"
+                android:text="The Volunteer feature"
+                android:layout_marginTop="20dp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="17dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="47dp"
+                android:layout_marginRight="17dp"
+                android:fontFamily="@font/proxima"
+                android:text="The Volunteer feature enables the visually impaired person to contact or ask for help from the person who is nearby in the area where the visually impaired person needs them.We call them'VOLUNTEER'."
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:textSize="13dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="47dp"
+                android:fontFamily="@font/proxima"
+                android:text="Text to speech Recognizer"
+                android:layout_marginTop="20dp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="17dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="47dp"
+                android:layout_marginRight="17dp"
+                android:fontFamily="@font/proxima"
+                android:text="The TTS technology provides the user to read the text in fron of them easily through voice enabled system."
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:textSize="13dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="47dp"
+                android:fontFamily="@font/proxima"
+                android:text="Message Volunteer"
+                android:layout_marginTop="20dp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="17dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="47dp"
+                android:layout_marginRight="17dp"
+                android:fontFamily="@font/proxima"
+                android:text="Messaging volunteers helps them to reach you out through your current location which will in result provide you help."
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:textSize="13dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="47dp"
+                android:fontFamily="@font/proxima"
+                android:text="Enabling/Disabling volunteer service"
+                android:layout_marginTop="20dp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="17dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="47dp"
+                android:layout_marginRight="17dp"
+                android:fontFamily="@font/proxima"
+                android:text="Enable/Disable feature provides the volunteer to notify themselves as available or unavailable that would make sure that when the visually impaired person needs help he/she will be able to help them out."
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:textSize="13dp"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Enadis"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<!--
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Enable/Disable"
+        android:fontFamily="@font/proxima"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+-->
+
+    <RelativeLayout
+        android:id="@+id/body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="-140dp"
+        android:layout_marginTop="20dp"
+        android:background="#FFF"
+        android:paddingBottom="16dp">
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/swithButtonn"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginEnd="10dp"
+            android:paddingRight="18dp"
+            android:tint="@color/colorAccent"
+            app:sb_background="#FFF"
+            app:sb_button_color="#fff"
+            app:sb_checked_color="@color/colorAccent"
+            app:sb_checkline_color="@color/colorPrimaryDark"
+            app:sb_shadow_color="#A36F95"
+            app:sb_uncheck_color="@color/colorAccent"
+            app:sb_uncheckcircle_color="@color/colorAccent" />
+
+        <!--  <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/swithButton"
+              android:layout_marginTop="10dp"
+              android:textColor="@color/colorPrimaryDark"
+              android:gravity="center"
+              android:fontFamily="@font/proxima"
+              android:text="For enabling the button ,please switch the toggle button on to the right side and for disabling the button switch on to the left side of the toggle button"
+              android:textSize="18sp" />-->
+    </RelativeLayout>
+
+</RelativeLayout>

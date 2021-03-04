@@ -1,0 +1,117 @@
+{
+  "project_info": {
+    "project_number": "181684926139",
+    "firebase_url": "https://myapplication-dc8b4.firebaseio.com",
+    "project_id": "myapplication-dc8b4",
+    "storage_bucket": "myapplication-dc8b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181684926139:android:c55929f9f7300825f65b9e",
+        "android_client_info": {
+          "package_name": "com.example.modernlog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "181684926139-5rp3bgreonkj7omp7pedlc9qcm85mk8m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.modernlog",
+            "certificate_hash": "572165426a09033e778d9979938d9db2ddb45636"
+          }
+        },
+        {
+          "client_id": "181684926139-3euqt6o1v1vou5veca6uaqgeahlp871j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.modernlog",
+            "certificate_hash": "33e96c7c361fb0ad999f853b1f35538c645a6b63"
+          }
+        },
+        {
+          "client_id": "181684926139-1jjqi64imgdpvphfrbh9i0235l5optpi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.modernlog",
+            "certificate_hash": "23e848305ff11eb33619456c786df5f1ab0c0654"
+          }
+        },
+        {
+          "client_id": "181684926139-l3ofk8nsqeiij6v5ikl2ktargiks4akd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.modernlog",
+            "certificate_hash": "77465b331048d5b6839733bbd13347988e27c037"
+          }
+        },
+        {
+          "client_id": "181684926139-qkbei1avuoujgrg21ld2qu46f4hq2erf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzex7vdxRhrxe_U7hW6FLmq-1KwE4rZ_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "181684926139-qkbei1avuoujgrg21ld2qu46f4hq2erf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181684926139:android:7f634046be65f7d6f65b9e",
+        "android_client_info": {
+          "package_name": "org.tensorflow.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "181684926139-g6m57b44fgltmpth9epqm9fc0tv4ol51.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.tensorflow.demo",
+            "certificate_hash": "77465b331048d5b6839733bbd13347988e27c037"
+          }
+        },
+        {
+          "client_id": "181684926139-qp66u6bclopmuhthp0c29u6rem7fs63l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.tensorflow.demo",
+            "certificate_hash": "33e96c7c361fb0ad999f853b1f35538c645a6b63"
+          }
+        },
+        {
+          "client_id": "181684926139-qkbei1avuoujgrg21ld2qu46f4hq2erf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzex7vdxRhrxe_U7hW6FLmq-1KwE4rZ_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "181684926139-qkbei1avuoujgrg21ld2qu46f4hq2erf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
