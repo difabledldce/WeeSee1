@@ -62,8 +62,8 @@ public class Homescreen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_homescreen);
-view_tap=(View)findViewById(R.id.view_tap_home_screen);
-view_tap.setOnClickListener(new View.OnClickListener() {
+        view_tap=(View)findViewById(R.id.view_tap_home_screen);
+        view_tap.setOnClickListener(new View.OnClickListener() {
     @Override
     public void onClick(View view) {
         //speak(".");
